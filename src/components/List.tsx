@@ -1,12 +1,12 @@
 "use client"
 
 import React from 'react'
-import {  List, Button } from "@mantine/core";
+import {  List, Button, Box } from "@mantine/core";
 // import { MantineProvider } from "@mantine/core";
 
 export const ListDemo = () => {
 	return (
-		<>
+		<Box m={10}>
 			<List>
 				<List.Item>Clone or download repository from GitHub</List.Item>
 				<List.Item>Install dependencies with yarn</List.Item>
@@ -15,7 +15,7 @@ export const ListDemo = () => {
 				<List.Item>Submit a pull request once you are done</List.Item>
 			</List>
 			<Button variant="filled">Hi</Button>
-		</>
+		</Box>
 
 	)
 }
